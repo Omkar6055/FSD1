@@ -1,0 +1,69 @@
+HTML : 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+   
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <img src="IMG_2966.jpg.jpg" alt="Omkar Kshirsagar's Photo" width="150" height="150">
+         <h4>Omkar Kshirsagr</h4>
+    <section id="about">
+        <h2>About Me</h2>
+        An IT engineering student with a passion for technology 
+        and a strong foundation in software development and problem-solving.
+         Seeking an internship or entry-level position where I can apply my 
+         technical skills, creativity, and commitment to excellence to 
+         contribute to innovative projects and further develop 
+         my expertise.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ol>
+            <li>Proficient in C++, Python, MySQL, CSS, JavaScript, HTML</li>
+            <li>Data tools: Pandas, NumPy, data cleaning</li>
+            <li>Problem-solving, teamwork, communication, creativity</li>
+            <li>Time management, logic building, critical thinking</li>
+        </ol>
+    
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><strong>Notes Sharing Platform:</strong> A web platform for sharing notes and videos for college years. <em>Tech:</em> HTML, CSS, JavaScript, PHP, MySQL</li>
+            <li><strong>Fitness Tracker Website:</strong> A site offering nutrition guidance and diet plans. <em>Tech:</em> HTML, CSS, JavaScript, Python, MySQL</li>
+            <li><strong>Infrastructure Development Monitoring:</strong> CV-based monitoring of safety gear compliance. <em>Tech:</em> Python, OpenCV, TensorFlow, MySQL</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contactForm">
+            <label>Name: <input type="text" id="name"></label><br>
+            <label>Email: <input type="email" id="email"></label><br>
+            <label>Message: <textarea id="message"></textarea></label><br>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 My Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
